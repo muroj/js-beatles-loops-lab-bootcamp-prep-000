@@ -3,7 +3,7 @@ function theBeatlesPlay(musicians, instruments) {
   var talents = [ ];
   
   for (let i = 0; i < musicians.length; i++) {
-    if (i == 0) {
+    if (i === 0) {
       talents.push("John Lennon plays Guitar");
     } else {
       talents.push(musicians[i] + " plays " + instruments[i]);
